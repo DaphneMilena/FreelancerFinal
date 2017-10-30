@@ -1,0 +1,280 @@
+/* seteando el proyecto */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #2c3e50;
+  text-transform: uppercase;
+  width: 100%;
+  height:70px;
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  }
+header nav h1 {
+padding-top: 20px;
+float: left;
+padding-left: 100px;
+}
+ul {
+  float: right;
+  list-style: none;
+  padding-top: 12px;
+  padding-right: 100px;
+}
+li{
+  display: inline-block;
+  padding: 15px
+}
+
+/*empieza sección boostrap*/
+.figurine{
+  margin-top: 40px;
+  color: black;
+  background-color: #18bc9c;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
+  font-family: 'Lato', sans-serif;
+}
+
+.figurine img{
+  margin-top: 80px;
+
+}
+.figurine h2{
+  margin-top: 35px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.figurine h6{
+  padding: 15px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.figurine i{
+  color: white;
+  padding: 20px;
+}
+hr{
+  border: 0;
+  background-color: white;
+  width: 50px;
+  height: 5px;
+  display: inline-block;
+}
+
+/*sección portafolio*/
+.portfol {
+  margin-top: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+.portfol h2{
+  margin-top: 35px;
+  color: black;
+}
+.portfol .imagenes{
+  width: 90%;
+  margin-left: 40px;
+}
+.portfol img{
+ padding: 20px;
+}
+
+.portfol .contenedor hr{
+  border: 0;
+  background-color: black;
+  width: 50px;
+  height: 5px;
+  display: inline-block;
+}
+
+.pic{
+  width: 280px;
+  height: 230px;
+  display: inline;
+}
+
+.portfol .fa-star{
+  color: black;
+}
+
+/*sección about*/
+
+.about{
+  text-align: center;
+  margin-top: 230px;
+  color: white;
+  background-color: #18bc9c;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  box-sizing: border-box;
+
+
+ }
+.text{
+  width: 100%;
+  height: 250px;
+  box-sizing: border-box;
+  margin-left: 300px;
+  }
+
+.about .box1{
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  float: left;
+  }
+
+.about .box2{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    float: left;
+  }
+.about .click button{
+  align-items: center;
+  background-color:#18bc9c ;
+  border: 1px solid white;
+  border-radius: 5%;
+  width: 160px;
+  height: 40px;
+}
+/*sectiom info*/
+.info{
+  margin-top: 40px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  height: 500px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.info h2{
+  margin-top: 35px;
+  color: black;
+}
+
+.info .contenedor hr{
+  border: 0;
+  background-color: black;
+  width: 50px;
+  height: 5px;
+  display: inline-block;
+}
+
+form{
+  margin-left: 200px;
+}
+.putInfo{
+  padding-top: 30px;
+  display: block;
+  width: 750px;
+  border-bottom:2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  }
+
+.putInfo .infobutton {
+  align-items: center;
+  background-color:#18bc9c ;
+  border: 1px solid white;
+  border-radius: 5%;
+  width: 160px;
+  height: 40px;
+}
+
+/*section footer*/
+footer{
+  box-sizing: border-box;
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+  background-color:  #2c3e50;
+}
+
+.left{
+  border: 0;
+  margin: 0;
+  background-color: #2c3e50;
+  width: 400px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  float: left;
+}
+
+.center{
+  border: 0;
+  margin: 0;
+  background-color: #2c3e50;
+  color: white;
+  width: 400px;
+  height: 200px;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.center .logos .fa{
+  padding-left: 5px;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 5%;
+}
+footer h2 {
+  text-transform: uppercase;
+  padding: 30px;
+}
+.right{
+  border: 0;
+  margin: : 0;
+  background-color: #2c3e50;
+  color: white;
+  width: 400px;
+  height: 200px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  text-align: center;
+}
+
+.lastline{
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
