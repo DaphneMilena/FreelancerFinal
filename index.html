@@ -2,110 +2,185 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Free Lancer</title>
+    <title>Freelancer</title>
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="assets/icons/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>start bootstrap</h1>
-        <ul>
-          <li>portafolio</li>
-          <li>about</li>
-          <li>contact</li>
+    <nav class="background-blue">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo uppercase bold">start bootstrap</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#" class="uppercase bold">portfolio</a></li>
+          <li><a href="#" class="uppercase bold">about</a></li>
+          <li><a href="#" class="uppercase bold">contact</a></li>
         </ul>
-      </nav>
-  </header>
-
-<section class="figurine">
-  <img src="assets/images/profile.png" alt="">
-  <h2> start  bootstrap</h2>
-  <div class="contenedor"><hr> <i class="fa fa-star"></i> <hr> </div>
-  <h6>Web Developer - Graphic Artist - User Experience Designer</h6>
-</section>
-
-<section class="portfol">
-  <h2>Portfolio</h2>
-
-  <div class="contenedor"><hr><i class="fa fa-star"></i> <hr> </div>
-
-  <div class="imagenes">
-  <img class="pic"src="assets/images/portfolio/cabin.png" alt="">
-  <img class="pic"src="assets/images/portfolio/cake.png" alt="">
-  <img class="pic"src="assets/images/portfolio/circus.png" alt="">
-  <img class="pic"src="assets/images/portfolio/game.png" alt="">
-  <img class="pic"src="assets/images/portfolio/safe.png" alt="">
-  <img class="pic"src="assets/images/portfolio/submarine.png" alt="">
-  </div>
-</section>
-
-  <section class="about">
-  <h2>ABOUT</h2>
-    <div class="contenedor"><hr><i class="fa fa-star"></i> <hr> </div>
-    <div class="text">
-    <div class="box1">
-      <p>Free lancer is a free bootstrap theme created by Star bootstrap. The download includes the complete
-      source files  including HTML, CSS and Javascript as well as optionaless stylesheets for
-      easy costumization.</p></div>
-
-    <div class="box2">
-      <p>Whether you are a student looking to showcase your work, a professional looking to attract clients
-       or a graphic artist looking to share your projects, this template is the perfect starting
-      point.</p></div>
-</div>
-<div class="click">
-  <button type="button" name="button">Download Theme<i class="fa fa-download"></i></button>
-</div>
-
- </section>
-
- <section class="info">
-   <h2>Contact me</h2>
-     <div class="contenedor"><hr><i class="fa fa-star"></i> <hr> </div>
-
-        <div class="putInfo">
-          <form>
-          <input class="putInfo" placeholder="Name">
-          <input class="putInfo" placeholder="Email Address">
-          <input class="putInfo" placeholder="Phone Number">
-          <textarea class="putInfo" rows="4" placeholder="Message"></textarea>
-        </form>
+      </div>
+    </nav>
+    <section class="teal accent-4">
+      <div class="container padding-containers">
+        <div class="row center">
+          <img src="assets/images/profile.png" alt=""> 
         </div>
-      <button class="infobutton">send</button>
-</section>
-
-<footer>
-  <div class="left">
-  <h2>Location</h2>
-     <p>3281, Melrose Place
-      90210 California</p> </div>
-
-<div class="center">
-    <h2>Around the web</h2>
-<div class="logos">
-   <i class="fa fa-facebook" aria-hidden="true"></i>
-   <i class="fa fa-google-plus" aria-hidden="true"></i>
-   <i class="fa fa-twitter" aria-hidden="true"></i>
-   <i class="fa fa-linkedin" aria-hidden="true"></i>
-   <i class="fa fa-dribbble" aria-hidden="true"></i>
-  </div>
-
-</div>
-
-<div class="right">
-  <h2>About Free Lancer</h2>
-  <p>Free Lancer is a free to use open source
-  Bootstrap theme created by Start Bootstrap</p></div>
-
-  <p class="lastline">
-    copyright &#169; made by Daphne 2017
-      </p>
-
-</footer>
-
-
+        <div class="row">
+          <div class="col s12 m12 l12 center">
+            <p class="em-4 white-text uppercase bold">start bootstrap</p>
+          </div>
+          <div class="col s12 m12 l12 center">
+            <div class="col s12 m12 l12 line-white">
+              <i class="white-text material-icons">star</i>
+            </div>
+          </div>
+          <div class="col s12 m12 l12 center">
+            <p class="em-2 white-text capitalize">web developer-graphic artist-user experience designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container padding-containers">
+        <div class="row">
+          <div class="col s12 m12 l12 center"> 
+            <p class="em-3 font-blue uppercase bold">portfolio</p>
+          </div>
+          <div class="col s12 m12 l12"> 
+            <div class="col s12 m12 l12 line-blue center">
+              <i class="font-blue material-icons">star</i>
+            </div>
+          </div>
+          <div class="col s12 m12 l12"> 
+            <div class="row container-img">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/cabin.png" alt="">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/cake.png" alt="">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/circus.png" alt="">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/game.png" alt="">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/safe.png" alt="">
+              <img class="col s12 m4 l4 mrg-top" src="assets/images/portfolio/submarine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="teal accent-4">
+      <div class="container padding-containers">
+        <div class="col s12 m12 l12 center">
+          <p class="em-3 white-text uppercase bold">about</p>
+        </div>
+        <div class="col s12 m12 l12 center">
+          <div class="col s12 m12 l12 line-white">
+            <i class="white-text material-icons">star</i>
+          </div>
+        </div>
+        <div class="col s12 m12 l12">
+          <div class="container">
+            <div class="row left padding-paragraphs">
+              <div class="col s6 m6 l6 white-text em-1-3">
+                Free lancer is a free bootstrap theme created by Star bootstrap. The download includes the complete
+                source files  including HTML, CSS and Javascript as well as optionaless stylesheets for
+                easy costumization
+              </div>
+              <div class="col s6 m6 l6 white-text em-1-3">
+                Whether you are a student looking to showcase your work, a professional looking to attract clients
+                or a graphic artist looking to share your projects, this template is the perfect starting
+               point
+              </div>
+            </div>
+          </div>
+          <div class="row center">
+            <a class="waves-effect waves-light white-text transparent btn-large curved center"><span class="material-icons center-flex">file_download</span> download theme</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container padding-containers">
+        <div class="col s12 m12 l12 center">
+            <p class="em-3 font-blue uppercase bold">contact me</p>
+        </div>
+        <div class="col s12 m12 l12 center">
+          <div class="col s12 m12 l12 line-blue center">
+            <i class="font-blue material-icons">star</i>
+          </div>
+        </div>
+        <div class="col s12 m12 l12 center">
+          <div class="container">
+            <form class="container col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email Address</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Phone Number</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+              <div class="row">
+                <a class="waves-effect waves-light btn left">Send</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- footer section-->
+    <footer class="background-blue">
+      <div class="container padding-containers">
+        <div class="row">
+          <div class="col s12 m4 l4 center">
+            <div class="col s12 m12 l12">
+              <p class="em-2 white-text uppercase bold">location</p>
+            </div>
+            <div class="col s12 m12 l12">
+              <p class="col s12 m12 l12 padding-containers center white-text capitalize em-1-3">3481 melrose place Beverly Hills, CA 90210</p>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 center">
+            <div class="col s12 m12 l12">
+              <p class="em-2 white-text uppercase bold">around the web</p>
+            </div>
+            <div class="col s12 m12 l12">
+              <div class="icons padding-containers">
+                <div class="col s2 m2 l2 white-text"><span class="bdr fa fa-facebook" aria-hidden="true"></span></div>
+                <div class="col s2 m2 l2 white-text"><span class="bdr fa fa-google-plus" aria-hidden="true"></span></div>
+                <div class="col s2 m2 l2 white-text"><span class="bdr fa fa-twitter" aria-hidden="true"></span></div>
+                <div class="col s2 m2 l2 white-text"><span class="bdr fa fa-linkedin" aria-hidden="true"></span></div>
+                <div class="col s2 m2 l2 white-text"><span class="bdr fa fa-dribbble" aria-hidden="true"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 center">
+            <div class="col s12 m12 l12">
+              <p class="em-2 white-text uppercase bold">about freelancer</p>
+            </div>
+            <div class="col s12 m12 l12">
+              <p class="em-1 white-text padding-containers">Freelance is a free to use, open source Bootstrap theme created by <span class="focus">Start Bootstrap</span>.</p>
+            </div>
+          </div>
+        </div> 
+        <div class="row center">  
+          <p class="col s12 m12 l12 em-1 white-text padding-containers">Copyright © Daphne Milena 2017</p>
+        </div> 
+      </div>
+    </footer>
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendors/materialize/js/materialize.min.js"></script>
   </body>
 </html>
